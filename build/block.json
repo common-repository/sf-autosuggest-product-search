@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "sf-products-autosuggest/sf-search-block",
+  "version": "0.1.0",
+  "title": "Sf Search Block",
+  "category": "widgets",
+  "icon": "search",
+  "description": "Display search input wherever you want.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "sf_search_block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
